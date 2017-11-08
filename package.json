@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-alvarium",
+  "version": "0.0.1",
+  "description": "Alvarium.io eslint rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "postversion": "git push --tags --no-verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alvarium/eslint-rules.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Alvarium.io",
+  "license": "GPL-3.0",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
