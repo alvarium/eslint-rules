@@ -18,6 +18,7 @@
   "author": "Alvarium.io",
   "license": "GPL-3.0",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "babel-eslint": "^8.0.2"
   }
 }
