@@ -4,6 +4,12 @@ module.exports = {
   env: {
     browser: true,
   },
+  parserOptions: {
+    ecmaFeatures: {
+      classes: true,
+      jsx: true,
+    },
+  },
   rules: {
   },
 }
