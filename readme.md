@@ -41,6 +41,13 @@ When extending, specify the React.js module:
 extends: alvarium/react
 ~~~
 
+Using the react linter requires some additional packages (added as peer
+dependencies to this project):
+
+~~~bash
+yarn add --dev babel-eslint eslint-config-react-app
+~~~
+
 License
 -------
 
