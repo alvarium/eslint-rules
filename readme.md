@@ -12,7 +12,7 @@ Installing
 As easy as
 
 ~~~bash
-npm install --save-dev eslint-config-alvarium
+npm install --save-dev eslint-config-alvarium eslint-plugin-import
 ~~~
 
 And to use it, just create an `.eslintrc` file extending from the desired config.
