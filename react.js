@@ -8,6 +8,10 @@ module.exports = {
       'error',
       'never',
     ],
+    quotes: [
+      'error',
+      'single',
+    ],
     'import/order': 'warn'
   },
 }
