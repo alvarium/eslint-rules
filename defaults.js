@@ -14,6 +14,12 @@ module.exports = {
       'error',
       'single',
     ],
+    'no-unused-vars': [
+      'error',
+      {
+        'args': 'after-used'
+      },
+    ],
     'import/order': 'warn'
   },
 }
