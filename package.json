@@ -17,6 +17,7 @@
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-plugin-import": ">= 2",
-    "eslint-config-react-app": ">= 2"
+    "eslint-config-react-app": ">= 2",
+    "babel-eslint": "^8.0.2"
   }
 }

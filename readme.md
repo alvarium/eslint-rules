@@ -31,6 +31,12 @@ When extending, specify the Node.js module:
 extends: alvarium/node
 ~~~
 
+Or with es6 features (requires `babel-eslint` package):
+
+~~~yaml
+extends: alvarium/node-es6
+~~~
+
 React.js
 --------
 
