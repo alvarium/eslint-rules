@@ -20,6 +20,7 @@ module.exports = {
         'args': 'after-used'
       },
     ],
-    'import/order': 'warn'
+    'import/order': 'warn',
+    'prefer-const': 'error',
   },
 }

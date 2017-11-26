@@ -12,6 +12,7 @@ module.exports = {
       'error',
       'single',
     ],
-    'import/order': 'warn'
+    'import/order': 'warn',
+    'prefer-const': 'error',
   },
 }
