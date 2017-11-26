@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "postversion": "git push --tags --no-verify && npm publish"
+    "postversion": "git push && git push --tags --no-verify && npm publish"
   },
   "repository": "alvarium/eslint-rules",
   "keywords": [
