@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alvarium",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Alvarium.io eslint rules",
   "main": "index.js",
   "scripts": {
