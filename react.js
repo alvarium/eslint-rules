@@ -15,5 +15,6 @@ module.exports = {
     'import/order': 'warn',
     'prefer-const': 'error',
     'react/jsx-wrap-multilines': 'error',
+    'prefer-destructuring': 'error',
   },
 }

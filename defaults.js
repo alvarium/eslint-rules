@@ -22,5 +22,6 @@ module.exports = {
     ],
     'import/order': 'warn',
     'prefer-const': 'error',
+    'prefer-destructuring': 'error',
   },
 }
