@@ -20,6 +20,10 @@ module.exports = {
         'args': 'after-used'
       },
     ],
+    'comma-dangle': [
+      'error',
+      'always-multiline'
+    ],
     'import/order': 'warn',
     'prefer-const': 'error',
     'prefer-destructuring': 'error',

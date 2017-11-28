@@ -12,6 +12,10 @@ module.exports = {
       'error',
       'single',
     ],
+    'comma-dangle': [
+      'error',
+      'always-multiline'
+    ],
     'import/order': 'warn',
     'prefer-const': 'error',
     'react/jsx-wrap-multilines': 'error',
