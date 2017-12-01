@@ -1,14 +1,13 @@
-const defaults = require('./index.js')
-
-module.exports = Object.assign({}, defaults, {
-  env: Object.assign({}, defaults.env, {
+module.exports = {
+  extends: 'alvarium',
+  env: {
     node: true,
     browser: false,
-  }),
-  rules: Object.assign({}, defaults.rules, {
+  },
+  rules: {
     strict: [
       'error',
       'never',
     ],
-  }),
-})
+  },
+}
