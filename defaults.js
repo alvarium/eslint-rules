@@ -25,6 +25,7 @@ module.exports = {
       'always-multiline'
     ],
     'import/order': 'warn',
+    'no-var': 'error',
     'prefer-const': 'error',
     'prefer-destructuring': 'error',
   },

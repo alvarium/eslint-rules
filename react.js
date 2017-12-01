@@ -1,9 +1,11 @@
+const defaults = require('./index.js')
+
 module.exports = {
   extends: 'react-app',
   plugins: [
     'import',
   ],
-  rules: {
+  rules: Object.extends({}, defaults.rules, {
     semi: [
       'error',
       'never',
@@ -16,9 +18,10 @@ module.exports = {
       'error',
       'always-multiline'
     ],
+    'no-var': 'error',
     'import/order': 'warn',
     'prefer-const': 'error',
     'react/jsx-wrap-multilines': 'error',
     'prefer-destructuring': 'error',
-  },
+  }),
 }
