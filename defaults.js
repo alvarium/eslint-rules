@@ -24,7 +24,11 @@ module.exports = {
       'error',
       'always-multiline'
     ],
+    indent: ['error', 2, {
+      SwitchCase: 1
+    }],
     'import/order': 'warn',
+    'no-redeclare': 'error',
     'no-var': 'error',
     'prefer-const': 'error',
     'prefer-destructuring': 'error',
