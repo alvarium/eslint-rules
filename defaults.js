@@ -32,5 +32,11 @@ module.exports = {
     'no-var': 'error',
     'prefer-const': 'error',
     'prefer-destructuring': 'error',
+    'space-before-function-paren': ['error', 'never'],
+    'space-unary-ops': ['error', {
+      words: true,
+      nonwords: false
+    }],
+    'space-infix-ops': 'error',
   },
 }
