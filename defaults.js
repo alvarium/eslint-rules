@@ -31,7 +31,15 @@ module.exports = {
     'no-redeclare': 'error',
     'no-var': 'error',
     'prefer-const': 'error',
-    'prefer-destructuring': 'error',
+    'prefer-destructuring': [
+      'error',
+      {
+        AssignmentExpression: {
+          array: false,
+          object: false,
+        }
+      }
+    ],
     'space-before-function-paren': ['error', 'never'],
     'space-unary-ops': ['error', {
       words: true,
