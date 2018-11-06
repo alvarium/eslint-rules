@@ -39,6 +39,7 @@ module.exports = {
       'error',
       'never',
     ],
+    'space-after-keywords': 'error',
     'space-before-function-paren': ['error', 'never'],
     'space-unary-ops': ['error', {
       words: true,
