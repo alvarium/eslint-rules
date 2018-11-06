@@ -40,7 +40,7 @@ module.exports = {
         }
       }
     ],
-    'space-after-keywords': 'error',
+    'keyword-spacing': 'error',
     'space-before-function-paren': ['error', 'never'],
     'space-unary-ops': ['error', {
       words: true,
